@@ -4,7 +4,13 @@
   "description": "Projeto de treinamento do curso \"Curso.Dev\".",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "_comments": {
+    "lint:check": "command that makes prettier check files for formatting",
+    "lint:fix": "command that writes and fix checked files in prettier format"
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +18,8 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
