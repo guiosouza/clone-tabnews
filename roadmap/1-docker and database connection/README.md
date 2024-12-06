@@ -1,6 +1,6 @@
 # 🐘 Resolvendo Conexão do Banco com o Docker
 
-### Aula 71 - Registro de Aprendizado 🚀
+### Aula 72 - Registro de Aprendizado 🚀
 
 ---
 
