@@ -1,4 +1,4 @@
-echo "# 🐘 Resolvendo Conexão do Banco com o Docker
+# 🐘 Resolvendo Conexão do Banco com o Docker
 
 ### Aula 71 - Registro de Aprendizado 🚀
 
@@ -80,5 +80,3 @@ psql --version
 ## 🙌 Agradecimentos
 
 Agradeço ao professor e à comunidade que estão sempre me dando aquele gás. Porque o negócio aqui é pancada atrás de pancada... e até que estou gostando! 🚀
-
----" > README.md
