@@ -38,10 +38,12 @@ async function status(request, response) {
       },
     });
   } catch (error) {
+
+    // olhe o console
     console.error("Erro ao obter informações do banco de dados:", error);
     response
-      .status(500)
-      .json({ error: "Erro ao obter informações do banco de dados" });
+    //   .status(500)
+    .json({ error: "Erro ao obter informações do banco de dados => ", error });
   }
 }
 
